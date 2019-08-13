@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    width: 425px;
+    height: 650px;
+    background-color: #BB1234;
+}
+
+.App {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    padding: 0 10px 0 0;
+    width: 360px;
+    height: 85px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 565px;
+    width: 425px;
+
+}
+
+button {
+    background-color: rgb(45, 45, 189);
+    height: 80px;
+    width: 80px;
+    color: white;
+    border-radius: 50px;
+    font-size: 40px;
+    border: none;
+    box-shadow: 5px black;
+}
+
+.SpecNum {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 318px;
+    
+    
+}
+
+.SpecNum button {
+    margin: 5px;
+    
+    
+}
+
+.SpecNum .Specials {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.SpecNum .Numbers {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 270px;
+}
+
+.SpecNum .Specials button {
+    background-color: rgb(64, 64, 243)
+}
+
+.SpecNum .Numbers button:nth-child(10){
+    width: 170px;
+}
+
+.Operators {
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    justify-content: flex-end;
+    
+}
+
+.Operators button {
+    margin: 5px;
+    background-color: rgb(54, 111, 233)
+}
